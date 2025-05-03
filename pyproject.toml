@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cookie-clicker"
+version = "0.1.0"
+description = "Un pequeño clon de Cookie Clicker en Python"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {file = "LICENSE.md"}
+authors = [
+  {name = "Homero Velasteguí", email = "fresvel@outlook.com"}
+]
+
+dependencies = [
+"exceptiongroup==1.2.2; python_version >= '3.7'",
+"h11==0.16.0; python_version >= '3.8'",
+"idna==3.10; python_version >= '3.6'",
+"outcome==1.3.0.post0; python_version >= '3.7'",
+"pysocks==1.7.1; python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
+"selenium==4.31.0; python_version >= '3.9'",
+"sniffio==1.3.1; python_version >= '3.7'",
+"sortedcontainers==2.4.0",
+"trio==0.30.0; python_version >= '3.9'",
+"trio-websocket==0.12.2; python_version >= '3.8'",
+"typing-extensions==4.13.2; python_version >= '3.8'",
+"urllib3[socks]==2.4.0; python_version >= '3.9'",
+"websocket-client==1.8.0; python_version >= '3.8'",
+"wsproto==1.2.0; python_full_version >= '3.7.0'"
+]
+
+[project.scripts]
+cookie-clicker = "cookie_clicker.__main__:main"
+
+
+
+[tool.setuptools.package-data]
+"cookie_clicker" = ["data/*.json"]
+#Crear el paquete
+#pip install setuptools wheel build
+#python -m build
+

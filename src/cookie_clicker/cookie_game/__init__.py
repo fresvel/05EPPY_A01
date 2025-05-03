@@ -1,0 +1,1 @@
+from .cookie_game import CookieGame  # con punto para importación relativa

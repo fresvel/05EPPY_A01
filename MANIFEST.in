@@ -1,0 +1,2 @@
+recursive-include src/cookie_clicker/data *.json
+recursive-include src/chrome-linux *
