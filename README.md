@@ -1,13 +1,13 @@
 # 05EPPY_A01
 
 ## Instalación con make
-1.- Crear un directorio base
-2.- Crear un entorno virtual
-3.- Instalar las herramientas necesarias
-4.- Clonar el repositorio desde https://github.com/fresvel/05EPPY_A01
-5.- Entrar en el directorio 05EPPY_A01
-6.- Compilar
-7.- Instalar
+- 1.- Crear un directorio base
+- 2.- Crear un entorno virtual
+- 3.- Instalar las herramientas necesarias
+- 4.- Clonar el repositorio desde https://github.com/fresvel/05EPPY_A01
+- 5.- Entrar en el directorio 05EPPY_A01
+- 6.- Compilar
+- 7.- Instalar
 
 ```bash
 pip install setuptools wheel build
