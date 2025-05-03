@@ -1,7 +1,5 @@
 # 05EPPY_A01
 
-De forma posterior le solicitará la ruta de acceso al driver (Chrome for testing). Se debe ingresar la ruta absoluta
-
 ## Instalación con make
 1.- Crear un directorio base
 2.- Crear un entorno virtual
@@ -35,3 +33,5 @@ Para iniciar la aplicación, ejecutar:
 ```bash
 coockie-clicker
 ```
+
+De forma posterior le solicitará la ruta de acceso al driver (Chrome for testing). Se debe ingresar la ruta absoluta
